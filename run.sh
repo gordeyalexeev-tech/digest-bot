@@ -67,7 +67,10 @@ case "$STEP" in
     ;;
   publish)
     cd "$WORK"
-    python3 publish.py --file "${2:-digest.md}"
+    F="${2:-digest.md}"
+    python3 publish.py --file "$F"
+    # сохраняем опубликованное в архив: история выпусков живёт в репозитории
+    mkdir -p digests && cp "$F" "digests/$DATE.md"
     commit_state
     ;;
   transcript)
