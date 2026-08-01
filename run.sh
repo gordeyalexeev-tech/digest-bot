@@ -20,6 +20,11 @@ setup() {
   else
     git -C "$WORK" pull --rebase --quiet || true
   fi
+  # архив мог быть распакован во вложенную папку — находим, где реально лежат скрипты
+  if [ ! -f "$WORK/harvest.py" ] && [ -f "$WORK/digest-bot/harvest.py" ]; then
+    echo "[bootstrap] скрипты во вложенной папке, работаю оттуда"
+    WORK="$WORK/digest-bot"
+  fi
   cd "$WORK"
   git config user.email "bot@digest.local"
   git config user.name "digest-bot"
@@ -32,7 +37,10 @@ setup() {
 
 commit_state() {
   cd "$WORK"
-  git add -A state sources.yaml 2>/dev/null || true
+  # коммитить надо из корня репозитория, а он может быть уровнем выше
+  ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "$WORK")"
+  cd "$ROOT"
+  git add -A 2>/dev/null || true
   if ! git diff --cached --quiet; then
     git commit -qm "state $(TZ=Europe/Moscow date +%F): прогон за $DATE"
     git push -q origin HEAD && echo "[bootstrap] состояние сохранено"
