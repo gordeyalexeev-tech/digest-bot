@@ -26,6 +26,19 @@
   "used": false
  },
  {
+  "url": "https://t.me/neurozeh/1706",
+  "from": "Нейроцех",
+  "wow": 4,
+  "tags": [
+   "perf",
+   "ai"
+  ],
+  "title": "😮 Что нового в мире ИИ \n\n 🟡 Microsoft выпустила MAI Image 2.5 Pro и MAI Voice 2 Flash. В первой улучшили сложные сцены, текст внутри картино",
+  "snippet": "😮 Что нового в мире ИИ \n\n 🟡 Microsoft выпустила MAI Image 2.5 Pro и MAI Voice 2 Flash. В первой улучшили сложные сцены, текст внутри картинок и редактирование по обычной команде, вторую ускорили почти вдвое и добавили 15 языков. Обе модели открыли в публичном превью через Microsoft Foundry.\n\n 💛 Anthropic выпустила бесплатный курс по Claude Code. В 15 коротких уроках показали, как подключить GitHub, хуки и скиллы, запустить длинные задачи и превратить Claude Code в полноценного агента. В конце до",
+  "added": "2026-08-03",
+  "used": false
+ },
+ {
   "url": "https://t.me/cpa_lenta/9223",
   "from": "CPALENTA",
   "wow": 3,
@@ -86,6 +99,43 @@
   "title": "Быть не лидером, а собой #чтопосмотреть в вечер воскресенья.\nИстинное интеллектуальное удовольствие получила от беседы Андрея Чернякова (осн",
   "snippet": "Быть не лидером, а собой #чтопосмотреть в вечер воскресенья.\nИстинное интеллектуальное удовольствие получила от беседы Андрея Чернякова (основатель программы развития топ-менеджеров Evolution.new ) и Александра Асмолова (психолог, антрополог, педагог) - подкаст «Почему человек должен постоянно искать себя». \n\nБольше всего откликнулась мысль о содействии - том самом драйвере, который наравне с конфликтом двигает эволюцию :\n «У эволюции два двигателя - конфликт и взаимопомощь. Содействие - это то,",
   "added": "2026-08-02",
+  "used": false
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=JWhICz1QR8M",
+  "from": "Greg Isenberg",
+  "wow": 3,
+  "tags": [
+   "ai",
+   "money"
+  ],
+  "title": "Why Graph Engineering will 10x your Claude/Codex",
+  "snippet": "I go solo on this one to break down graph engineering, the term I keep seeing go viral on X. I define it in plain English: prompt engineering is how you ask AI a better question, context engineering is how you give AI better information, and graph engineering is how you design the work around the AI so it lives as a managed workflow instead of one giant chat. I walk through the vocabulary (jobs, arrows, state), separate knowledge graphs from agent graphs, and run a full worked example on whether",
+  "added": "2026-08-03",
+  "used": false
+ },
+ {
+  "url": "https://t.me/nadobulovchera/1395",
+  "from": "Надо было вчера",
+  "wow": 3,
+  "tags": [
+   "perf"
+  ],
+  "title": "Борисов и Янковский все сломали \n\nЗабавное промо фильма с Борисовым и Янковским — якобы сломалась машина на Патриарших и из-за них все движе",
+  "snippet": "Борисов и Янковский все сломали \n\nЗабавное промо фильма с Борисовым и Янковским — якобы сломалась машина на Патриарших и из-за них все движение встало, и люди, разумеется, глазели и снимали. \n\n Люблю креативы для продвижения сериалов и кино — просто непочатый край. Жаль, бюджеты на это часто идут по остаточному принципу 🤡 \n\nИз похожего — Борисова отправляли в метро раздавать цветы в образе Пушкина под выход «Пророка», тоже было довольно хорошо. Других свежих псевдопартизанских акций с известными",
+  "added": "2026-08-03",
+  "used": false
+ },
+ {
+  "url": "https://t.me/HotDigital/15825",
+  "from": "ХОТ ДИДЖИТАЛ | Ситников",
+  "wow": 3,
+  "tags": [
+   "ai"
+  ],
+  "title": "BMW вместе с агентством Jung von Matt HAMBURG интегрировала новые iX3 и 5 Series в фильм Spider-Man: Brand New Day, сделав автомобили частью",
+  "snippet": "BMW вместе с агентством Jung von Matt HAMBURG интегрировала новые iX3 и 5 Series в фильм Spider-Man: Brand New Day, сделав автомобили частью сюжета. В поддержку коллаборации вышел тизер, специальная версия BMW iX3 Flow в стиле Человека-паука и анимация для мультимедиа автомобилей BMW #car #tech \n\n @HotDigital",
+  "added": "2026-08-03",
   "used": false
  }
 ]
