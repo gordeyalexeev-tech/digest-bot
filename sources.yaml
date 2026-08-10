@@ -92,6 +92,7 @@ tg_perf_author:
   - {u: cyberbrainio,          n: "CyberBrain | digital marketing",   sub: null, v: 4, f: 4, src: заказчик}
   - {u: antro_cx,              n: "Антро",                            sub: null, v: 3, f: 3, src: заказчик}
   - {u: featureoftheday,       n: "Фича дня by @hardclient",          sub: null, v: 4, f: 4, src: заказчик}
+  - {u: sales_smb,               n: "Реклама заработает | Иван Варламов",    sub: 8680,   v: 4, f: 4}
 
 # --- РУБРИКА 1б. Перформанс: крупные и отраслевые ------------------
 tg_perf_major:
@@ -175,6 +176,9 @@ tg_ai_author:
   - {u: romarayt,           n: "Рома Райт",                     sub: 47000, v: 4, f: 2, src: заказчик}
   - {u: sukhov_ai,          n: "Владимир Сухов | Нейросети",    sub: 6170,  v: 4, f: 4, src: заказчик}
   - {u: your_pet_project,   n: "Твой пет проект",               sub: 100000,v: 4, f: 2, src: заказчик}
+  - {u: countwithsasha,          n: "Поляков считает: AI, код и кейсы",      sub: 6440,   v: 4, f: 4}
+  - {u: d_dubovskov,             n: "Дубовсков: Психология кода",            sub: 1650,   v: 4, f: 5}
+  - {u: ivandrobitko,            n: "Иван Дробитько | нейросети в бизнес",   sub: 541,    v: 3, f: 5}
 
 # --- РУБРИКА 2б. Пересечение ИИ × маркетинг (самое ценное) --------
 tg_ai_marketing:
@@ -206,6 +210,8 @@ tg_ai_money:
   - {u: aioftheday,      n: "AI Central | Горный",           sub: 42100, v: 4, f: 2}
   - {u: ict_moscow_ai,   n: "База знаний AI",                sub: 9010,  v: 4, f: 3}
   - {u: singularityfm,   n: "Тарнавский (T-Bank)",           sub: 9570,  v: 4, f: 3}
+  - {u: startupoftheday,         n: "Стартап дня. Александр Горный",         sub: 58800,  v: 4, f: 3}
+  - {u: startups_not_scary,      n: "Стартапы — это не страшно",             sub: 1570,   v: 3, f: 4}
 
 # --- РУБРИКА 2в. Новостной фон по ИИ (нужен для полноты) ----------
 tg_ai_news:
