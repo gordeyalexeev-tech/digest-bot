@@ -26,17 +26,19 @@ setup() {
     WORK="$WORK/digest-bot"
   fi
   cd "$WORK"
-  git config user.email "bot@digest.local"
-  git config user.name "digest-bot"
+  git config user.email "noreply@anthropic.com"
+  git config user.name "Claude"
   python3 -c "import yaml" 2>/dev/null || pip install pyyaml --break-system-packages -q
   command -v yt-dlp >/dev/null || pip install yt-dlp --break-system-packages -q
   # секреты не в репозитории, а в переменных окружения задачи
   printf 'TG_BOT_TOKEN=%s\nTG_CHAT_ID=%s\n' "$TG_BOT_TOKEN" "$TG_CHAT_ID" > .env
   chmod 600 .env
+  python3 tgstate.py restore || echo "[warn] состояние из канала не поднялось"
 }
 
 commit_state() {
   cd "$WORK"
+    python3 tgstate.py save || echo "[warn] состояние в канал не ушло"
   # коммитить надо из корня репозитория, а он может быть уровнем выше
   ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "$WORK")"
   cd "$ROOT"
