@@ -45,9 +45,13 @@ commit_state() {
   git add -A 2>/dev/null || true
   if ! git diff --cached --quiet; then
     git commit -qm "state $(TZ=Europe/Moscow date +%F): прогон за $DATE"
-    git push -q origin HEAD && echo "[bootstrap] состояние сохранено"
+    if git push -q origin HEAD 2>/dev/null; then
+      echo "[bootstrap] запушено в репозиторий"
+    else
+      echo "[bootstrap] push закрыт прокси, состояние уже в канале"
+    fi
   else
-    echo "[bootstrap] состояние не изменилось"
+    echo "[bootstrap] в репозитории без изменений"
   fi
 }
 
